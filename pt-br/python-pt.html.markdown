@@ -16,16 +16,11 @@ Python foi criada por Guido Van Rossum nos anos 1990. Ela é atualmente uma
 das linguagens mais populares existentes. Eu me apaixonei por
 Python por sua clareza sintática. É praticamente pseudocódigo executável.
 
-Opniões são muito bem vindas. Você pode encontrar-me em
-[@louiedinh](http://twitter.com/louiedinh) ou louiedinh [em]
-[serviço de e-mail do google].
-
 Observação: Este artigo trata de Python 3 especificamente. Verifique
 [aqui](http://learnxinyminutes.com/docs/pt-br/python-pt/) se você pretende
 aprender o velho Python 2.7.
 
 ```python
-
 # Comentários em uma única linha começam com uma cerquilha (também conhecido por sustenido).
 
 """ Strings de várias linhas podem ser escritas

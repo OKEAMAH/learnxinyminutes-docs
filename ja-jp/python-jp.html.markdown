@@ -11,6 +11,7 @@ contributors:
 translators:
     - ["kakakaya", "https://github.com/kakakaya"]
     - ["Ryota Kayanuma", "https://github.com/PicoSushi"]
+    - ["Kenryu Shibata", "https://github.com/kenryuS"]
 filename: learnpython-jp.py
 lang: ja-jp
 ---
@@ -18,8 +19,6 @@ lang: ja-jp
 90年代の初め、Guido van RossumによってPythonは作成されました。現在となっては、最も有名な言語の1つです。
 私は構文の明快さによって、Pythonと恋に落ちました。
 以下は基本的に実行可能な疑似コードです。
-
-フィードバッグは大歓迎です! [@louiedinh](http://twitter.com/louiedinh) または louiedinh [at] [google's email service] にご連絡下さい!
 
 Note: この記事はPython 3に内容を絞っています。もし古いPython 2.7を学習したいなら、 [こちら](http://learnxinyminutes.com/docs/pythonlegacy/) をご確認下さい。
 
@@ -180,7 +179,7 @@ bool({})                        # => False
 bool(())                        # => False
 
 ####################################################
-# 2. Variables and Collections
+# 2. 変数と集合
 ####################################################
 
 # Python にはprint関数があります。
@@ -400,7 +399,7 @@ filled_set | other_set          # => {1, 2, 3, 4, 5, 6}
 
 
 ####################################################
-# 3. 制御の流れとiterable
+# 3. 制御の流れと反復可能オブジェクト
 ####################################################
 
 # まずは変数を作りましょう。
@@ -429,7 +428,7 @@ for animal in ["dog", "cat", "mouse"]:
     print("{} is a mammal".format(animal))
 
 """
-"range(数値)" は、ゼロから与えられた数値までのiterableを返します。
+"range(数値)" は、ゼロから与えられた数値までのiterable(反復可能オブジェクト)を返します。
 出力:
     0
     1
@@ -649,7 +648,7 @@ print(ceil(3.7))                # => 4.0
 print(floor(3.7))               # => 3.0
 
 # 全部の関数をモジュールからインポートすることができます。
-# Warning: この方法は推奨されません。
+# 注意: この方法は推奨されません。
 from math import *
 
 # 短い名前でモジュールをインポートすることができます。
@@ -990,9 +989,9 @@ print(say())                 # Can you buy me a beer?
 print(say(say_please=True))  # Can you buy me a beer? Please! I am poor :(
 ```
 
-## Ready For More?
+## さらなる学習の準備ができましたか？
 
-### Free Online
+### 無料のオンラインコンテンツ
 
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
 * [Ideas for Python Projects](http://pythonpracticeprojects.com)

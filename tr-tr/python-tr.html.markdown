@@ -16,7 +16,6 @@ Python,90ların başlarında Guido Van Rossum tarafından oluşturulmuştur. En 
 Not: Bu makale Python 3 içindir. Eğer Python 2.7 öğrenmek istiyorsanız [burayı](http://learnxinyminutes.com/docs/pythonlegacy/) kontrol edebilirsiniz.
 
 ```python
-
 # Tek satırlık yorum satırı kare(#) işareti ile başlamaktadır.
 
 """ Çok satırlı olmasını istediğiniz yorumlar
@@ -320,7 +319,7 @@ Döngülerle lsiteleri döngüye alabilirsiniz
     kedi bir memeli hayvandır
     fare bir memeli hayvandır
 """
-for hayvan in ["köpek", "kedi, "fare"]:
+for hayvan in ["köpek", "kedi", "fare"]:
     # format ile kolayca yazıyı biçimlendirelim
     print("{} bir memeli hayvandır".format(hayvan))
 
